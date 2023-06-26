@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Navbar from './scenes/Navbar';
 import { SelectedPage } from './shared/types';
 import Home from './scenes/Home';
+import Benefits from './scenes/Benefits';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
                 isTopOfpage={isTopOfPage}
             />
             <Home setSelecetedPage={setSelecetedPage}/>
+            <Benefits setSelecetedPage={setSelecetedPage}/>
         </div>
     );
 }
